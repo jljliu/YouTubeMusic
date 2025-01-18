@@ -1,0 +1,24 @@
+{
+  "name": "YouTubeMusic",
+  "version": "1.0.0",
+  "description": "Youtube Music",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.3.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "YouTubeMusic",
+    "productName": "YouTube Music",
+    "mac": {
+      "icon": "assets/icons8-youtube-music-512.png"
+    }
+  }
+}
